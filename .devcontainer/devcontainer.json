@@ -1,11 +1,8 @@
 {
-    "name": "React Native Dev Container",
-    "dockerFile": "Dockerfile",
-    "appPort": [3000],
-    "extensions": [],
-    "forwardPorts": [3000],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
+    "name": "recicleplus",
+    "build": {
+        "context": ".",
+        "dockerfile": "../Dockerfile"
     },
-    "workspaceMount": "source=/app,target=/app,type=volume"
+    "postCreateCommand": "docker build -t recicleplus && docker run -it recicleplus"
 }
