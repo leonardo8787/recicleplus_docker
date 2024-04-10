@@ -1,7 +1,7 @@
 {
   "name": "Ubuntu Dev Container",
   "dockerFile": "../Dockerfile",
-  "postCreateCommand": "/bin/bash .devcontainer/init.sh",
+  "postCreateCommand": "/bin/bash /app/init.sh",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
