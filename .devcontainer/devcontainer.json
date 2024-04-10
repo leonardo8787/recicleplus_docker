@@ -1,8 +1,9 @@
 {
-    "name": "recicleplus",
-    "build": {
-        "context": ".",
-        "dockerfile": "../Dockerfile"
-    },
-    "postCreateCommand": "docker build -t recicleplus && docker run -it recicleplus"
+  "name": "Ubuntu Dev Container",
+  "dockerFile": "../Dockerfile",
+  "postCreateCommand": "/bin/bash .devcontainer/init.sh",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "workspaceFolder": "/app"
 }
