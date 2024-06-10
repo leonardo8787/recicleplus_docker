@@ -1,0 +1,24 @@
+WEB
+
+: npm run dev 
+
+Roda a aplicação na porta 3000 do localhost.
+
+==================================================================
+
+ANDROID
+
+: npx expo start --tunnel 
+
+Basta scannear o QR code e abrir no Expo Go. 
+
+
+==================================================================
+
+BUILD (Android)
+
+eas build 
+
+==================================================================
+
+É importante ter uma conta no site do EXPO: https://expo.dev/
