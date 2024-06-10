@@ -7,3 +7,6 @@ npx expo start --tunnel
 ~~~
 Ele irá criar um túnel com ngrok que permitirá você compilar usando o expo app estando na mesma rede do seu computador. 
 
+Autor:
+
+ - Leonardo Campos
