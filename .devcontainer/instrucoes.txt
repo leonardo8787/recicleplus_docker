@@ -22,3 +22,25 @@ eas build
 ==================================================================
 
 É importante ter uma conta no site do EXPO: https://expo.dev/
+
+
+==================================================================
+
+Install web dependencies
+
+Copy
+
+npx expo install react-dom react-native-web @expo/metro-runtime
+Start the dev server
+You can now start the dev server and develop in the browser with:
+
+
+Copy
+
+npx expo start --web
+The app can be exported as a production website with:
+
+
+Copy
+
+npx expo export --platform web
